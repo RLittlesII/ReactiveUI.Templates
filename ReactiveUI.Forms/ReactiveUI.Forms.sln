@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Forms.Android", "src\Droid\ReactiveUI.Droid.csproj", "{742F3B21-A68C-489A-A3AD-99CD6474DAE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Droid", "src\Droid\ReactiveUI.Droid.csproj", "{742F3B21-A68C-489A-A3AD-99CD6474DAE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Forms.iOS", "src\iOS\ReactiveUI.iOS.csproj", "{BAC06BBF-DB3A-4936-A919-7F5738CB25DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.iOS", "src\iOS\ReactiveUI.iOS.csproj", "{BAC06BBF-DB3A-4936-A919-7F5738CB25DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Forms.UWP", "src\UWP\ReactiveUI.UWP.csproj", "{42433A87-A7C1-4A8D-B161-999686FB91ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.UWP", "src\UWP\ReactiveUI.UWP.csproj", "{42433A87-A7C1-4A8D-B161-999686FB91ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Forms", "src\Forms\ReactiveUI.Forms.csproj", "{3324EAAC-51A5-423D-A972-9F4135A9046C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveUI.Forms", "src\Forms\ReactiveUI.Forms.csproj", "{3324EAAC-51A5-423D-A972-9F4135A9046C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
