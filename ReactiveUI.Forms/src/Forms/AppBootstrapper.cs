@@ -5,7 +5,7 @@ using Splat;
 
 namespace ReactiveUI.Forms
 {
-    public abstract class AppBootstrapper : ReactiveObject, IScreen
+    public class AppBootstrapper : ReactiveObject, IScreen
     {
         public RoutingState Router { get; protected set; }
 
@@ -21,9 +21,12 @@ namespace ReactiveUI.Forms
 
         public virtual void NavigateToStart()
         {
+            Router.NavigateAndReset.Execute(new MainViewModel()).Subscribe();
         }
 
-        public abstract void RegisterPlatformServices();
+        public virtual void RegisterPlatformServices()
+        {
+        }
 
         public virtual void RegisterScreen()
         {

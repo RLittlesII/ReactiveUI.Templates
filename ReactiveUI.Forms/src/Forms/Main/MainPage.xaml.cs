@@ -7,11 +7,11 @@ using Xamarin.Forms;
 
 namespace ReactiveUI.Forms
 {
-	public partial class MainPage : ContentPage
-	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
-	}
+    public partial class MainPage : BaseContentPage<MainViewModel>
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+    }
 }
