@@ -1,0 +1,18 @@
+<VSTemplate Version="2.0.0" Type="Project"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>MyWebProjecStarterKit</Name>
+        <Description>A simple web template</Description>
+        <Icon>icon.ico</Icon>
+        <ProjectType>Web</ProjectType>
+        <ProjectSubType>CSharp</ProjectSubType>
+        <DefaultName>WebSite</DefaultName>
+    </TemplateData>
+    <TemplateContent>
+        <Project File="WebApplication.webproj">
+            <ProjectItem>icon.ico</ProjectItem>
+            <ProjectItem OpenInEditor="true">Default.aspx</ProjectItem>
+            <ProjectItem>Default.aspx.cs</ProjectItem>
+        </Project>
+    </TemplateContent>
+</VSTemplate>
