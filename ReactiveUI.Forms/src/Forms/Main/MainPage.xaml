@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<local:BaseContentPage x:TypeArguments="local:MainViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+<reactiveui:BaseContentPage x:TypeArguments="reactiveui:MainViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:ReactiveUI.Forms"
-             xmlns:main="clr-namespace:ReactiveUI.Forms;assembly=ReactiveUI.Forms"
+             xmlns:reactiveui="clr-namespace:ReactiveUI.Forms"
              x:Class="ReactiveUI.Forms.MainPage">
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!"
+        <Button Text="Second Page" x:Name="SecondButton"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
-</local:BaseContentPage>
+</reactiveui:BaseContentPage>

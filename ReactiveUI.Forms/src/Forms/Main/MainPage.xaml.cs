@@ -12,6 +12,11 @@ namespace ReactiveUI.Forms
         public MainPage()
         {
             InitializeComponent();
+
+            this.WhenActivated(dispose =>
+            {
+                dispose(this.BindCommand(ViewModel, vm => vm.SecondCommand, page => page.SecondButton));
+            });
         }
     }
 }

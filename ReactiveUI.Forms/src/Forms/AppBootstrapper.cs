@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ReactiveUI.XamForms;
 using Splat;
+using Xamarin.Forms;
 
 namespace ReactiveUI.Forms
 {
@@ -19,9 +21,10 @@ namespace ReactiveUI.Forms
             RegisterViewModels();
         }
 
-        public virtual void NavigateToStart()
+        public virtual Page NavigateToStart()
         {
             Router.NavigateAndReset.Execute(new MainViewModel()).Subscribe();
+            return new RoutedViewHost();
         }
 
         public virtual void RegisterPlatformServices()
@@ -36,6 +39,8 @@ namespace ReactiveUI.Forms
 
         protected virtual void RegisterPages()
         {
+            Locator.CurrentMutable.Register(() => new MainPage(), typeof(IViewFor<MainViewModel>));
+            Locator.CurrentMutable.Register(() => new SecondPage(), typeof(IViewFor<SecondViewModel>));
         }
 
         protected virtual void RegisterServices()
@@ -44,6 +49,8 @@ namespace ReactiveUI.Forms
 
         protected virtual void RegisterViewModels()
         {
+            Locator.CurrentMutable.Register<MainViewModel>(() => new MainViewModel());
+            Locator.CurrentMutable.Register<SecondViewModel>(() => new SecondViewModel());
         }
 
         private void InitializeReactiveUI()

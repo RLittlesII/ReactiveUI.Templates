@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reactiveui:BaseContentPage x:TypeArguments="reactiveui:SecondViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:reactiveui="clr-namespace:ReactiveUI.Forms;assembly=ReactiveUI.Forms"
+             x:Class="ReactiveUI.Forms.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to the Second Page!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</reactiveui:BaseContentPage>

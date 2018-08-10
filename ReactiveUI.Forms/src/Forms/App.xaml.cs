@@ -12,7 +12,11 @@ namespace ReactiveUI.Forms
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            var bootstrapper = new AppBootstrapper();
+
+            bootstrapper.Initialize();
+
+            MainPage = bootstrapper.NavigateToStart();
         }
 
         protected override void OnResume()
