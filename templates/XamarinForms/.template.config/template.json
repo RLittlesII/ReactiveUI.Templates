@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Rodney Littles, II",
+    "classifications": [ "Xamarin", "Forms" ],
+    "identity": "Airframe.Forms",
+    "name": "Airframe Xamarin.Forms project",
+    "shortName": "Airframe.Forms",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }
