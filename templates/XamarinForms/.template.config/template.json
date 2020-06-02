@@ -4,10 +4,13 @@
     "classifications": [ "ReactiveUI", "Xamarin", "Forms" ],
     "identity": "ReactiveUI.XamForms",
     "name": "ReactiveUI Xamarin.Forms project",
-    "shortName": "ReactiveUI.XamForms",
+    "shortName": "reactiveui.xamforms",
+    "defaultName": "XamForms",
+    "preferNameDirectory": true,
+    "sourceName": "Template",
+    "generatorVersions": "[1.0.0.0-*)",
     "tags": {
       "language": "C#",
       "type": "project"
-    },
-    "sourceName": "ReactiveUI.XamForms"
+    }
   }
