@@ -9,7 +9,7 @@ using Rocket.Surgery.Nuke.DotNetCore;
 using Rocket.Surgery.Nuke.GithubActions;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
 
-[GitHubActionsSteps("ci", GitHubActionsImage.MacOsLatest,
+[GitHubActionsSteps("templates", GitHubActionsImage.MacOsLatest,
     AutoGenerate = false,
     On = new[] { GitHubActionsTrigger.Push },
     OnPushTags = new[] { "v*" },
