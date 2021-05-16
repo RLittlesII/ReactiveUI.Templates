@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>ReactiveUI.Templates</PackageId>
+    <Title>ReactiveUI Templates</Title>
+    <Authors>Rodney Littles, II and contributors</Authors>
+    <Description>Templates to use when creating an application using Rocket Surgery!</Description>
+    <Tags>dotnet-new;templates;reactiveui;reacive</Tags>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <IncludeSymbols>false</IncludeSymbols>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="**\*.cs" />
+    <Content Include="..\src\**\*" Exclude="**\Directory.Build.*;**\bin\**;**\obj\**;*.csproj" PackagePath="content\templates\" />
+  </ItemGroup>
+
+</Project>
