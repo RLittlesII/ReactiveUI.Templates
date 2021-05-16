@@ -4,7 +4,7 @@
     "classifications": [ "ReactiveUI", "Xamarin", "Forms" ],
     "identity": "ReactiveUI.XamForms",
     "name": "ReactiveUI Xamarin.Forms project",
-    "shortName": "reactiveui.xamforms",
+    "shortName": "reactiveui.sextant.xamforms",
     "defaultName": "XamForms",
     "preferNameDirectory": true,
     "sourceName": "Template",
