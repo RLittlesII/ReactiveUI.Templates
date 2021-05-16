@@ -1,7 +1,6 @@
 using System;
 using ReactiveUI;
 using Sextant;
-using Sextant.Abstractions;
 using Sextant.XamForms;
 using Splat;
 using Xamarin.Forms;
