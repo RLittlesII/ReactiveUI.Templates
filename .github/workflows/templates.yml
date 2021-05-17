@@ -20,13 +20,12 @@ on:
   push:
     branches:
       - master
-      - next
+      - feature/*
     tags:
       - v*
   pull_request:
     branches:
       - master
-      - next
 
 jobs:
   Build:
