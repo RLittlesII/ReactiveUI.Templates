@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Reactive;
 using System.Windows;
 
 namespace Template
@@ -13,5 +8,13 @@ namespace Template
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            MessageInteractions.ShowMessage.RegisterHandler(context =>
+            {
+                MessageBox.Show(context.Input);
+                context.SetOutput(Unit.Default);
+            });
+        }
     }
 }

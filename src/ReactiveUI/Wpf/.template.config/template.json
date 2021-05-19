@@ -3,7 +3,7 @@
     "author": "ReactiveUI",
     "classifications": [ "ReactiveUI", "WPF" ],
     "identity": "ReactiveUI.WPF",
-    "name": "ReactiveUI WPF projec",
+    "name": "ReactiveUI WPF project",
     "shortName": "reactiveui.wpf",
     "defaultName": "ReactiveUIWpf",
     "preferNameDirectory": true,
