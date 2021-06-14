@@ -9,9 +9,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ReactiveUI.Forms.iOS</RootNamespace>
+    <RootNamespace>Template.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>ReactiveUI.Forms.iOS</AssemblyName>
+    <AssemblyName>Template.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -145,6 +145,10 @@
     <ProjectReference Include="..\Forms\ReactiveUI.Forms.csproj">
       <Project>{3324eaac-51a5-423d-a972-9f4135a9046c}</Project>
       <Name>ReactiveUI.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Forms\Template.csproj">
+      <Project>{248f6567-7a8e-45f9-957a-b21e22ded3bf}</Project>
+      <Name>Template</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
