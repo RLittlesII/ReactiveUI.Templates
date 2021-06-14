@@ -7,7 +7,7 @@
     "shortName": "reactiveui.xamforms",
     "defaultName": "XamForms",
     "preferNameDirectory": true,
-    "sourceName": "ReactiveUI",
+    "sourceName": "Template",
     "generatorVersions": "[1.0.0.0-*)",
     "tags": {
       "language": "C#",

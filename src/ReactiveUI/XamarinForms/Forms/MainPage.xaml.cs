@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ReactiveUI.Forms
+namespace Template
 {
-	public partial class MainPage : ContentPage
+	public partial class MainPage
 	{
 		public MainPage()
 		{

@@ -1,18 +1,19 @@
-using System;
+using Splat;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
-namespace ReactiveUI.Forms
+namespace Template
 {
 	public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
+            var _ = new AppBootstrapper(Locator.CurrentMutable);
 
-			MainPage = new MainPage();
-		}
+            MainPage = AppBootstrapper.CreateMainPage();
+        }
 
 		protected override void OnStart ()
 		{

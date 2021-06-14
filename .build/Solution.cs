@@ -110,7 +110,7 @@ public interface ICanInstallDotNetTemplates : IHaveTestTarget, IHaveBuildTarget,
 
                 try
                 {
-                    DotNet("new --uninstall Rocket.Surgery.Templates");
+                    DotNet("new --uninstall ReactiveUI.Templates");
                 }
                 catch
                 {
