@@ -11,7 +11,7 @@
 
     <ItemGroup>
         <PackageReference Include="Rocket.Surgery.Nuke" Version="0.15.1" />
-        <PackageReference Include="JetBrains.ReSharper.CommandLineTools" Version="2021.1.2">
+        <PackageReference Include="JetBrains.ReSharper.CommandLineTools" Version="2021.1.5">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
